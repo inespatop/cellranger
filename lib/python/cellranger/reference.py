@@ -2,7 +2,6 @@
 #
 # Copyright (c) 2015 10X Genomics, Inc. All rights reserved.
 #
-import my.library
 import collections
 import cPickle
 import csv
