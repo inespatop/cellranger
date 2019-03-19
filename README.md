@@ -1,5 +1,6 @@
 # This is a fork that changes the default STAR multimapping option to 1
- added --outFilterMultimapNmax 1 to lib/python/cellranger/reference.py 
+ This basically removes multimaping reads.
+ Added --outFilterMultimapNmax 1 to lib/python/cellranger/reference.py 
 
 # Building Cell Ranger 3.0.2
 ## Build dependencies
