@@ -526,6 +526,7 @@ class STAR:
             '--outSAMtype', 'SAM',
             '--outStd', 'SAM',
             '--outSAMorder', 'PairedKeepInputOrder',
+            '--outFilterMultimapNmax', '1'
         ]
 
         if read_group_tags is not None:
